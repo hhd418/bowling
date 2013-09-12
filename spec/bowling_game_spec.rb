@@ -33,7 +33,7 @@ describe BowlingGame do
         3.times { game.roll(5) }
         17.times { game.roll(0) }
 
-        expect(game.score).to eq (20) 
+        expect(game.score).to eq(20) 
       end
     end
   end
